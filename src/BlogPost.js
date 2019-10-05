@@ -21,7 +21,7 @@ export default class BlogPost extends Component {
         You only grew accustomed to the salt<br/>
         I was born in it<br/>
 
-        <Comment commentText={"Tell my wifi love her"} />
+        <Comment commentText={comments[0]} />
         <Comment commentText={comments[1]} />
         <Comment commentText={comments[2]} />
       </div>
