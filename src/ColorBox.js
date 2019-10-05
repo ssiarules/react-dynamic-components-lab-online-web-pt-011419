@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 
 export default class ColorBox extends Component {
-  
+
   render() {
     let NowOpacity= this.props.opacity;
     function CurrentColor() {
@@ -16,5 +16,5 @@ export default class ColorBox extends Component {
       </div>
     )
   }
-  
+
 }
